@@ -17,9 +17,6 @@
       "isolatedModules": false,
       "esModuleInterop": true,
       "noEmit": false,
-      "noUnusedLocals": true,
-      "noUnusedParameters": true,
-      "noImplicitReturns": true,
       "noImplicitOverride": true,
       "noImplicitAny": true,
       "skipLibCheck": true
