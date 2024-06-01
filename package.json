@@ -1,11 +1,12 @@
 {
   "scripts": {
-   "build": "tsc && vite build"
+    "build": "npx webpack"
   },
   "devDependencies": {
     "@league-of-foundry-developers/foundry-vtt-types": "^9.280.0",
+    "ts-loader": "^9.5.1",
     "typescript": "^5.4.5",
-    "vite": "^5.2.12",
-    "rollup-plugin-copy": "^3.5.0"
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
   }
 }
