@@ -1,3 +1,6 @@
+import Constants from "./Constants";
+import { FlagHelper } from "./helpers/FlagHelper";
+
 Hooks.on("ready", function() {
   console.log("This code runs once core initialization is ready and game data is available.");
 });
@@ -8,5 +11,8 @@ Hooks.on("canvasReady", () => {
 	if (classNameArr.includes("Thaumaturge")) {
 		// @ts-ignore
 		(game as Game).user?.character?.sheet._render(true);
+
+		// @ts-ignore
+		FlagHelper.setFlag(Constants.MODULE_NAME, Constants.FLAGS.EV_ACTIVE, false);
 	}
 })

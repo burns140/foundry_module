@@ -1,3 +1,6 @@
+// POINTLESS, ONLY USED FOR INITIAL TESTING
+// NOT INCLUDED IN MODULE
+
 interface PF2eChatMessage extends ChatMessage {
     rolls: Roll[];
 }

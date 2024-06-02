@@ -4,5 +4,5 @@ export interface CharacterSheetPF2e {
 
 interface CharacterPF2e {
     flags: any;
-    getFlag(flag: string);
+    getFlag(flag: string, attribute: string);
 }

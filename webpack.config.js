@@ -5,9 +5,8 @@ module.exports = {
   mode: "development",
   watch: true,
   devtool: "inline-source-map",
-  entry: ["./src/ts/entry.ts",
-          "./src/ts/rollEvents.ts",
-          "./src/ts/characterSheetEvents.ts",
+  entry: ["./src/ts/init.ts",
+          "./src/ts/hooks/CharacterSheetHooks.ts",
     ],
   output: {
     path: path.resolve(__dirname, './scripts'),
