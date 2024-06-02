@@ -12,7 +12,6 @@ Hooks.on("canvasReady", () => {
 		// @ts-ignore
 		(game as Game).user?.character?.sheet._render(true);
 
-		// @ts-ignore
-		FlagHelper.setFlag(Constants.MODULE_NAME, Constants.FLAGS.EV_ACTIVE, false);
+		FlagHelper.InitializeFlags();
 	}
 })
